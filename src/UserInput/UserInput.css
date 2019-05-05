@@ -1,0 +1,8 @@
+.UserInput {
+    padding:5px; 
+    border-radius: 5px;
+}
+
+.UserInput:focus {
+    border-color:#333;
+}
