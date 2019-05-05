@@ -9,6 +9,12 @@ class App extends Component {
     username: 'tomquinn'
   }
 
+  setUsernameHandler = (name) => {
+    this.setState( {
+      username: name
+    });
+  }
+
   render = () => {
     return (
       <div className="App">
