@@ -19,7 +19,8 @@ class App extends Component {
     return (
       <div className="App">
         <UserInput
-          changed={this.setUsernameHandler}>
+          changed={this.setUsernameHandler}
+          default={this.state.username}>
         </UserInput>
         <UserOutput
           username={this.state.username}>
