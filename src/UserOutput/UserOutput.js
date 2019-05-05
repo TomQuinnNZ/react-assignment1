@@ -4,11 +4,7 @@ const userOutput = (props) => {
     return (
         <div className="UserOutput">
             <p>
-                Lorem ipsum commodo sollicitudin erat ornare justo 
-                curabitur integer etiam interdum platea eget, risus
-                volutpat ac mi posuere euismod cursus congue amet 
-                senectus elit, tortor mauris nullam ad ligula 
-                habitasse diam lacus malesuada ac metus.
+                {props.username}
             </p>
             <p>
                 Eu pellentesque sit habitant volutpat dolor blandit 

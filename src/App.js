@@ -8,9 +8,14 @@ class App extends Component {
   render = () => {
     return (
       <div className="App">
-        <UserInput />
-        <UserOutput></UserOutput>
-        <UserOutput></UserOutput>
+        <UserInput>
+        </UserInput>
+        <UserOutput
+          username="tomquinn">
+        </UserOutput>
+        <UserOutput
+          username="tomquinn">
+        </UserOutput>
       </div>
     );
   }
