@@ -5,16 +5,20 @@ import UserOutput from './UserOutput/UserOutput';
 
 class App extends Component {
 
+  state = {
+    username: 'tomquinn'
+  }
+
   render = () => {
     return (
       <div className="App">
         <UserInput>
         </UserInput>
         <UserOutput
-          username="tomquinn">
+          username={this.state.username}>
         </UserOutput>
         <UserOutput
-          username="tomquinn">
+          username={this.state.username}>
         </UserOutput>
       </div>
     );
